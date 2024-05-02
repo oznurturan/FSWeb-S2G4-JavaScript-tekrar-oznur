@@ -49,10 +49,22 @@ function KareninAlani(kenaruzunlugu) {
 	3. Çemberin çevresi hesaplanacaktır (💡 İPUCU: Çemberin çevresi = 2 * pi * yarıçap)
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
-const yaricap = "yarıçap"
-function CemberinCevresi(2*pi*yarıçap) {
+const pi = Math.PI; // Pi sabitini tanımla
+function CemberinCevresi(yarıçap) {
   return 2 * pi * yarıçap;
 }
+
+}
+
+
+const pi = Math.PI; // Pi sabitini tanımla
+
+function CemberinCevresi(yarıçap) {
+  return 2 * pi * yarıçap;
+}
+
+// Fonksiyonu çağır ve sonucu yazdır
+console.log(CemberinCevresi(5));
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
