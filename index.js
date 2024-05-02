@@ -70,6 +70,7 @@ function CemberinAlani(yaricap, pi) {
   /* kodlar buraya */
 }
 console.log("Çemberin alanı:", alan);
+
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
 /* 	GÖREV 3:
@@ -83,11 +84,7 @@ console.log("Çemberin alanı:", alan);
 		3d. `besyuzdenkucuksayilar` adında bir dizi oluşturarak, sayilar dizisinin içindeki 500'den küçük sayıları bu diziye atayın (.filter metodunu kullanın)
 		   
 		3e. besyuzdenkucuksayilar dizisindeki sayıları küçükten büyüğe sıralayıp `siralisayilar` adındaki bir diziye aktarın (.sort metodunu kullanın)
-*/	 
-     besyuzdenkucuksayilar = [];
-    besyuzdenkucuksayilar.push(...sayilar.filter.sayi ==>500)
-
-/* 
+ 
 		3f. `tekraredensayilar` adında bir dizi oluşturun. sayilar dizisi içerisindeki bazı sayılar birden fazla kere yazılmış. sayilar dizisi içerisinde birden fazla kez yazılmış sayıları tespit ederek kaç kere tekrar edildiğini belirten bir string oluşturulup `tekraredensayilar` dizisine aktarılmasını istiyoruz. Örnek string: "{sayı} sayısı {tekrarSayisi} kere tekrar edilmiştir"
 		ÖRNEK: sayilar dizisi içerisinde 45 sayısı 3 kere yazılmış. "45 sayısı 3 tekrar edilmiştir" stringini `tekraredensayilar` dizisine aktaracağız.
 		💡 İPUCU: Tekrar edilen sayıları ve kaç kere tekrar edildiğini kaydetmek için bir nesne tanımlamalısınız, bu görevi yapabilmek için en az 2 kere döngü yazmalısınız. Birinci döngüde hangi sayının kaç kere tekrar edildiğini tespit edip, 2. döngüde stringi oluşturup verilen diziye aktarmalısınız.
@@ -106,6 +103,7 @@ let ucetambolunenler,
 // 3a çözümü
 
 /* kodlar buraya */
+const enBuyuk
 
 // 3b çözümü:
 
@@ -118,7 +116,8 @@ let ucetambolunenler,
 // 3d çözümü
 
 /* kodlar buraya */
-
+besyuzdenkucuksayilar = [];
+    besyuzdenkucuksayilar.push(...sayilar.filter.sayi ==>500)
 // 3e çözümü
 
 siralisayilar = besyuzdenkucuksayilar.sort((a,b)=>a-b);
