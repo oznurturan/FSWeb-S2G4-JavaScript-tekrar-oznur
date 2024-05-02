@@ -49,9 +49,9 @@ function KareninAlani(kenaruzunlugu) {
 	3. Çemberin çevresi hesaplanacaktır (💡 İPUCU: Çemberin çevresi = 2 * pi * yarıçap)
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
-
-function CemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
+const yaricap = "yarıçap"
+function CemberinCevresi(2*pi*yarıçap) {
+  return 2 * pi * yarıçap;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -60,7 +60,8 @@ function CemberinCevresi(/* kodlar buraya */) {
 - CemberinAlani fonksiyonunu kullanarak aşağıdaki yönergeleri uygulayın:
 	1. Argüman olarak çemberin yarıçapını BİRİNCİ parametre olacak alacaktır. 
 	2. Global değişken olarak verilmiş pi sayısını fonksiyonun İKİNCİ parametresi olacak alacaktır.
-	3. Çemberin alanı hesaplanacaktır (💡 İPUCU: Çemberin alanı = pi * yarıçapın karesi, yarıçapın karesini bulmak için Javascript içinde tanımlı Math kütüphanesini kullanabilirsiniz. Math.pow(yaricap,2))
+	3. Çemberin alanı hesaplanacaktır (💡 İPUCU: Çemberin alanı = pi * yarıçapın karesi, yarıçapın karesini bulmak için Javascript içinde tanımlı 
+    Math kütüphanesini kullanabilirsiniz. Math.pow(yaricap,2))
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
@@ -79,9 +80,13 @@ function CemberinAlani(/* kodlar buraya */) {
 		3c. `ucetambolunenler` dizisindeki sayıların toplamını .reduce metoduyla bulup, sonucu `ucebolunenlerintoplami` değişkenine yazdırın (.reduce metodunu kullanın)
 		
 		3d. `besyuzdenkucuksayilar` adında bir dizi oluşturarak, sayilar dizisinin içindeki 500'den küçük sayıları bu diziye atayın (.filter metodunu kullanın)
-		
+		   
 		3e. besyuzdenkucuksayilar dizisindeki sayıları küçükten büyüğe sıralayıp `siralisayilar` adındaki bir diziye aktarın (.sort metodunu kullanın)
-		
+*/	 
+     besyuzdenkucuksayilar = [];
+    besyuzdenkucuksayilar.push(...sayilar.filter.sayi ==>500)
+
+/* 
 		3f. `tekraredensayilar` adında bir dizi oluşturun. sayilar dizisi içerisindeki bazı sayılar birden fazla kere yazılmış. sayilar dizisi içerisinde birden fazla kez yazılmış sayıları tespit ederek kaç kere tekrar edildiğini belirten bir string oluşturulup `tekraredensayilar` dizisine aktarılmasını istiyoruz. Örnek string: "{sayı} sayısı {tekrarSayisi} kere tekrar edilmiştir"
 		ÖRNEK: sayilar dizisi içerisinde 45 sayısı 3 kere yazılmış. "45 sayısı 3 tekrar edilmiştir" stringini `tekraredensayilar` dizisine aktaracağız.
 		💡 İPUCU: Tekrar edilen sayıları ve kaç kere tekrar edildiğini kaydetmek için bir nesne tanımlamalısınız, bu görevi yapabilmek için en az 2 kere döngü yazmalısınız. Birinci döngüde hangi sayının kaç kere tekrar edildiğini tespit edip, 2. döngüde stringi oluşturup verilen diziye aktarmalısınız.
@@ -115,11 +120,34 @@ let ucetambolunenler,
 
 // 3e çözümü
 
-/* kodlar buraya */
+siralisayilar = besyuzdenkucuksayilar.sort((a,b)=>a-b);
+console.log("3e:",siralisayilar);
 
 // 3f çözümü
 
-/* kodlar buraya */
+tekraredensayilar=[];
+const tekrarSayilar = {};
+//for (let i=0; i< sayilar.length; i++)
+
+depo[eleman]
+
+  //Tekrar edilme sıklığını hesaplarım.
+// depo için boş bir obje oluştururum. depo={}
+// Her eleman için bir döngü yaparım. .forEach()
+// Her döngüde bu eleman depoda var mı (boolean) kontrol ederim ? 
+
+  //. if eleman==undefined depoya değeri 1 olarak eklerim.
+  // Varsa değerini 1 arttırırdım yazardım.
+
+           //Birden fazla tekrar edilenler için metin oluştururum. 
+          // Tekrar edilen sayılar boş arrayini tanımlarım.
+  //arraya pushlar arrayi geri dönerim.
+  // 2.döngü oluşturup depodaki her sayı için bir döngü oluştururum.
+// Eğer tekrar sıklığı birden büyükse metni oluştururum ve result array in içine pushlarım.
+// ve tekrar eden sonuç arrayine yollarım.
+//
+
+}
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
